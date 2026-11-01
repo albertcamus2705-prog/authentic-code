@@ -9,7 +9,7 @@ Ce guide explique comment modifier le site, le mettre en ligne et activer l'envo
 | Pages, textes, tarifs, portfolio, FAQ | Prêts |
 | Liens WhatsApp, téléphone, Instagram | Prêts |
 | Formulaire en 3 étapes, récapitulatif, message WhatsApp prérempli | Prêts |
-| Envoi des demandes par e-mail | Code prêt et testé en simulation. **Fonctionne seulement après la configuration Resend + Cloudflare (étapes 3 et 4 ci-dessous).** Sans elle, le formulaire affiche une erreur claire et propose WhatsApp : il n'affiche jamais un faux succès. |
+| Envoi des demandes par e-mail | Configuré (clé Resend enregistrée comme secret Cloudflare). En cas de panne, le formulaire affiche une erreur claire et propose WhatsApp : il n'affiche jamais un faux succès. |
 | Aperçu de partage (WhatsApp, Instagram, e-mail) | Prêt, à condition de renseigner l'adresse définitive du site (`adresseSite`) |
 | Mentions légales | Statut renseigné ; SIRET et adresse à compléter avant la diffusion publique |
 | Avis clients | Publiés (avis réels, publication autorisée) |
@@ -69,6 +69,8 @@ Dans `src/data/faq.json`, une question masquée a `"publie": false` et une répo
 Dans `src/data/avis.json`, passez `"publie"` à `true` seulement pour un avis réellement écrit par un client qui accepte sa publication, et indiquez son prénom ou ses initiales dans `"auteur"`.
 
 ## Mise en ligne (gratuite)
+
+Déjà fait : site en ligne sur https://authentic-code.pages.dev, relié au dépôt GitHub albertcamus2705-prog/authentic-code. Toute modification envoyée sur GitHub met le site à jour en une à deux minutes. Les étapes ci-dessous servent de référence.
 
 Solution retenue : **GitHub** (stockage des fichiers) + **Cloudflare Pages** (hébergement) + **Resend** (envoi des e-mails). Ces conditions ont été vérifiées le 1er novembre 2026 sur les sites officiels ; elles peuvent changer.
 

@@ -6,7 +6,7 @@
       "nom": "Mini-séance solo",
       "pour": "Une personne",
       "duree": "30 min",
-      "photos": 5,
+      "photos": 10,
       "prix": 90,
       "description": "Pour un besoin ciblé : une nouvelle photo de profil, quelques portraits réussis ou un premier essai devant l'objectif.",
       "accueil": true
@@ -16,7 +16,7 @@
       "nom": "Solo classique",
       "pour": "Une personne",
       "duree": "1 h",
-      "photos": 10,
+      "photos": 15,
       "prix": 150,
       "description": "Le temps de prendre vos marques, puis de varier les cadrages et les expressions.",
       "accueil": true
@@ -26,7 +26,7 @@
       "nom": "Solo complet",
       "pour": "Une personne",
       "duree": "2 h",
-      "photos": 20,
+      "photos": 35,
       "prix": 250,
       "description": "Une séance longue pour plusieurs ambiances ou plusieurs tenues, avec une sélection plus riche.",
       "accueil": false
@@ -37,7 +37,7 @@
       "nomComplet": "Portrait professionnel — LinkedIn, CV & présentation",
       "pour": "Étudiants, personnes en recherche d'emploi, salariés, cadres, entrepreneurs, indépendants et consultants",
       "duree": "30 min",
-      "photos": 3,
+      "photos": 8,
       "prix": 90,
       "description": "Pour votre profil LinkedIn, votre CV, votre site ou votre présentation professionnelle.",
       "accueil": true
@@ -47,7 +47,7 @@
       "nom": "Couple",
       "pour": "Deux personnes",
       "duree": "1 h",
-      "photos": 15,
+      "photos": 20,
       "prix": 180,
       "description": "Un moment à deux, guidé simplement, pour des images naturelles de votre complicité.",
       "accueil": true
@@ -57,7 +57,7 @@
       "nom": "Famille",
       "pour": "Jusqu'à 5 personnes",
       "duree": "1 h à 1 h 15",
-      "photos": 20,
+      "photos": 25,
       "prix": 220,
       "personnesMax": 5,
       "description": "Parents, enfants, grands-parents : une séance à la maison ou en extérieur, au rythme de chacun.",
@@ -68,7 +68,7 @@
       "nom": "Grossesse",
       "pour": "Future maman, seule ou accompagnée",
       "duree": "1 h à 1 h 30",
-      "photos": 15,
+      "photos": 20,
       "prix": 220,
       "description": "Pour garder une trace de cette période, avec le temps de vous installer confortablement.",
       "accueil": false
@@ -78,7 +78,7 @@
       "nom": "Amis / EVJF",
       "pour": "Jusqu'à 8 personnes",
       "duree": "1 h 30",
-      "photos": 25,
+      "photos": 30,
       "prix": 280,
       "personnesMax": 8,
       "description": "Une séance de groupe pour un EVJF, un moment entre amis ou le plaisir d'être réunis : portraits et photos de groupe.",

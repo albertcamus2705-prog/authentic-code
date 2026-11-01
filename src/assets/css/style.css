@@ -9,10 +9,9 @@
   font-display: swap;
 }
 @font-face {
-  font-family: "Instrument Sans";
-  src: url("../fonts/instrument-sans.woff2") format("woff2");
-  font-weight: 400 700;
-  font-stretch: 75% 100%;
+  font-family: "Source Sans 3";
+  src: url("../fonts/source-sans-3.woff2") format("woff2");
+  font-weight: 200 900;
   font-style: normal;
   font-display: swap;
 }
@@ -23,15 +22,15 @@
   --encre: #101010;
   --rouge: #B91C2B;
   --rouge-fonce: #941521;
-  --texte: #525252;
-  --texte-doux: #6A645D;
+  --texte: #3F3D3A;
+  --texte-doux: #5E5852;
   --ligne: #E3DDD3;
   --bord-champ: #8C857D;
-  --noir-texte: #CFC9C0;
+  --noir-texte: #DCD6CD;
   --focus: #101010;
 
   --serif: "Bodoni Moda", "Didot", "Bodoni 72", Georgia, serif;
-  --sans: "Instrument Sans", system-ui, -apple-system, "Segoe UI", Roboto, sans-serif;
+  --sans: "Source Sans 3", system-ui, -apple-system, "Segoe UI", Roboto, sans-serif;
 
   --gouttiere: clamp(16px, 4vw, 40px);
   --section: clamp(64px, 9vw, 128px);
@@ -45,8 +44,8 @@ body {
   background: var(--papier);
   color: var(--texte);
   font-family: var(--sans);
-  font-size: 1.0625rem;
-  line-height: 1.6;
+  font-size: 1.125rem;
+  line-height: 1.65;
   overflow-x: hidden;
 }
 [hidden] { display: none !important; }

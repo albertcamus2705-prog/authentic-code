@@ -104,7 +104,7 @@ function page({ chemin, id, titre, description, corps, scripts = [] }) {
 <link rel="icon" type="image/png" sizes="32x32" href="${prefixe}assets/img/favicon-32.png">
 <link rel="apple-touch-icon" href="${prefixe}assets/img/apple-touch-icon.png">
 <link rel="preload" href="${prefixe}assets/fonts/bodoni-moda.woff2" as="font" type="font/woff2" crossorigin>
-<link rel="preload" href="${prefixe}assets/fonts/instrument-sans.woff2" as="font" type="font/woff2" crossorigin>
+<link rel="preload" href="${prefixe}assets/fonts/source-sans-3.woff2" as="font" type="font/woff2" crossorigin>
 <link rel="stylesheet" href="${prefixe}assets/css/style.css?v=${VERSION}">
 ${jsonld}
 </head>
@@ -822,7 +822,7 @@ pages.push({
   <p>${esc(ml.hebergeur)}</p>
   <h2 class="titre-sous-section">Photographies et contenus</h2>
   <p>Les photographies présentées sur ce site sont réalisées par ${esc(site.nom)}. Elles ne peuvent pas être reproduites ou réutilisées sans autorisation. Les personnes photographiées peuvent demander le retrait d'une image en écrivant à <a href="mailto:${site.contact.email}">${esc(site.contact.email)}</a>.</p>
-  <p>Polices de caractères : Bodoni Moda et Instrument Sans, sous licence SIL Open Font License.</p>
+  <p>Polices de caractères : Bodoni Moda et Source Sans 3, sous licence SIL Open Font License.</p>
 </section>`,
 });
 

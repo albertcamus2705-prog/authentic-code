@@ -1,0 +1,12 @@
+{
+  "name": "authentic-code",
+  "private": true,
+  "type": "module",
+  "description": "Site de photographie Authentic Code — Paris et Île-de-France",
+  "scripts": {
+    "build": "node build.mjs",
+    "apercu": "node build.mjs --apercu",
+    "local": "node build.mjs && node outils/serveur-local.mjs"
+  },
+  "engines": { "node": ">=18" }
+}

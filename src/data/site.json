@@ -1,0 +1,67 @@
+{
+  "_aide": "Coordonnées et réglages généraux. Modifier une valeur ici la met à jour sur tout le site au prochain déploiement.",
+  "nom": "Authentic Code",
+  "adresseSite": "https://authentic-code.pages.dev",
+  "zone": "Paris et Île-de-France",
+  "photographe": {
+    "prenomNom": "Albert Camus",
+    "role": "Photographe et créateur d'Authentic Code",
+    "photo": "albert-photographe",
+    "photoSecondaire": "casquette-pull-canard",
+    "presentation": [
+      "Je suis Albert Camus, photographe et créateur d'Authentic Code. Ce qui m'anime, c'est de saisir ce qui vous rend authentique : une expression, une émotion, un instant spontané.",
+      "À travers Authentic Code, je crée des photos authentiques et originales, dans lesquelles vous vous reconnaissez. Perfectionniste et attentif aux détails, je soigne chaque étape, de nos premiers échanges à la retouche.",
+      "Je prends le temps de vous écouter et de vous mettre à l'aise."
+    ]
+  },
+  "contact": {
+    "telephoneAffiche": "06 14 46 91 88",
+    "telephoneLien": "tel:+33614469188",
+    "whatsapp": "https://wa.me/33614469188",
+    "email": "authenticcodephoto@gmail.com"
+  },
+  "reseaux": [
+    {
+      "nom": "Instagram",
+      "compte": "@authentic_c0de",
+      "url": "https://www.instagram.com/authentic_c0de/"
+    }
+  ],
+  "accueil": {
+    "photo": "homme-lunettes-pull-marron",
+    "titre": "Vos instants. Votre histoire. Des images qui vous ressemblent.",
+    "sousTitre": "Portraits, couples, familles et événements à Paris et en Île-de-France. Des séances préparées avec vous, pour des images naturelles et soignées."
+  },
+  "portraitPro": {
+    "photo": "femme-mur-vert"
+  },
+  "imagePartage": {
+    "photo": "femme-tresses",
+    "centreX": 0.5,
+    "centreY": 0.3
+  },
+  "logo": {
+    "source": "logo-authentic-code.jpeg",
+    "cercle": [
+      207,
+      300,
+      192
+    ]
+  },
+  "livraison": {
+    "texte": "Les photos sont livrées en numérique haute définition, par lien de téléchargement ou sur un autre support selon ce qui vous convient, pour les retrouver sur téléphone comme sur ordinateur.",
+    "albums": "Des albums personnalisés peuvent aussi être réalisés, sur demande."
+  },
+  "cartesCadeaux": {
+    "publie": true,
+    "texte": "Vous pouvez offrir une séance. Choisissez la formule à offrir et envoyez votre demande : je vous recontacte pour préparer la carte cadeau et vous en préciser les modalités."
+  },
+  "mentionsLegales": {
+    "_aide": "Compléter avant la mise en ligne publique. Les lignes vides ne s'affichent pas.",
+    "editeur": "Albert Camus — Authentic Code",
+    "statut": "Entrepreneur individuel (micro-entreprise)",
+    "siret": "",
+    "adresse": "",
+    "hebergeur": "Cloudflare, Inc. — 101 Townsend Street, San Francisco, CA 94107, États-Unis — cloudflare.com"
+  }
+}

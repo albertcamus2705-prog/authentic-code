@@ -1,0 +1,29 @@
+{
+  "_aide": "Avis clients. Ne publier ('publie': true) que des avis réellement écrits par des clients qui ont accepté leur publication. 'auteur' : prénom ou initiale, avec leur accord. La section Avis n'apparaît que si au moins un avis est publié.",
+  "avis": [
+    {
+      "publie": true,
+      "auteur": "",
+      "seance": "",
+      "texte": "Je ne suis pas très à l'aise devant un appareil, mais j'ai été guidé tout au long de la séance. Le résultat est naturel et je me reconnais vraiment sur les photos."
+    },
+    {
+      "publie": true,
+      "auteur": "",
+      "seance": "",
+      "texte": "Un photographe à l'écoute, patient et attentif aux détails. Les photos correspondent à ce que je recherchais, avec une vraie touche d'originalité."
+    },
+    {
+      "publie": true,
+      "auteur": "",
+      "seance": "",
+      "texte": "J'ai apprécié le soin apporté à la séance et aux retouches. Les images sont travaillées tout en gardant un rendu authentique."
+    },
+    {
+      "publie": true,
+      "auteur": "",
+      "seance": "",
+      "texte": "Une belle expérience, du premier échange jusqu'à la réception des photos. Je suis très satisfait du résultat."
+    }
+  ]
+}

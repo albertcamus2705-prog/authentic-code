@@ -1,0 +1,423 @@
+{
+  "_aide": "Liste des photos du site. 'cadrage' = point à garder visible quand la photo est recadrée (horizontal puis vertical, en %). 'portfolio' = true pour l'afficher dans la galerie, dans l'ordre de cette liste. 'categorie' sert aux filtres du portfolio (ils s'affichent dès que deux catégories ont au moins 3 photos). Après avoir ajouté ou remplacé une photo, lancer : python3 outils/preparer-photos.py 'serie' regroupe les photos d'une même séance : le site vérifie qu'elles ne se touchent pas dans la galerie. 'ordreMobile' : position sur téléphone et tablette (2 colonnes), pour garder la même règle sur petits écrans.",
+  "photos": [
+    {
+      "id": "pull-raye-rouge",
+      "source": "pull-raye-rouge.jpeg",
+      "alt": "Jeune femme en pull rayé rouge et blanc, les mains jointes, regard calme tourné vers l'objectif.",
+      "cadrage": "50% 24%",
+      "categorie": "Portraits",
+      "portfolio": true,
+      "largeur": 1024,
+      "hauteur": 1536,
+      "tailles": [
+        480,
+        800,
+        1024
+      ],
+      "ordreMobile": 2
+    },
+    {
+      "id": "femme-tresses",
+      "source": "femme-tresses.png",
+      "alt": "Femme aux longues tresses, souriante, téléphone en main, devant un mur de tableaux colorés.",
+      "cadrage": "52% 24%",
+      "categorie": "Portraits",
+      "portfolio": true,
+      "largeur": 1536,
+      "hauteur": 1024,
+      "tailles": [
+        480,
+        800,
+        1200,
+        1536
+      ],
+      "ordreMobile": 1
+    },
+    {
+      "id": "blazer-montre",
+      "source": "blazer-montre.png",
+      "alt": "Homme en veste à carreaux bleu marine et rouge, chemise rose, regarde sa montre.",
+      "cadrage": "43% 22%",
+      "categorie": "Portraits",
+      "portfolio": true,
+      "largeur": 1028,
+      "hauteur": 1529,
+      "tailles": [
+        480,
+        800,
+        1028
+      ],
+      "serie": "blazer",
+      "ordreMobile": 4
+    },
+    {
+      "id": "homme-lunettes-pull-marron",
+      "source": "homme-lunettes-pull-marron.jpeg",
+      "alt": "Homme souriant aux lunettes noires, pull marron zippé, regard direct vers l'objectif.",
+      "cadrage": "45% 28%",
+      "categorie": "Portraits",
+      "portfolio": true,
+      "largeur": 1024,
+      "hauteur": 1536,
+      "tailles": [
+        480,
+        800,
+        1024
+      ],
+      "ordreMobile": 3
+    },
+    {
+      "id": "yeux-fermes",
+      "source": "yeux-fermes.png",
+      "alt": "Femme aux yeux fermés, visage tourné vers le soleil, robe en wax colorée et dentelle rouge.",
+      "cadrage": "45% 18%",
+      "categorie": "Portraits",
+      "portfolio": true,
+      "largeur": 1170,
+      "hauteur": 1749,
+      "tailles": [
+        480,
+        800,
+        1170
+      ],
+      "ordreMobile": 5
+    },
+    {
+      "id": "ny-bras-croises",
+      "source": "ny-bras-croises.png",
+      "alt": "Homme en casquette et pull bleu, bras croisés, photographié en plongée sur des pavés.",
+      "cadrage": "46% 22%",
+      "categorie": "Portraits",
+      "portfolio": true,
+      "largeur": 1024,
+      "hauteur": 1536,
+      "tailles": [
+        480,
+        800,
+        1024
+      ],
+      "serie": "ny",
+      "ordreMobile": 7
+    },
+    {
+      "id": "deux-amis-rire",
+      "source": "deux-amis-rire.png",
+      "alt": "Deux amis qui rient côte à côte, l'un en pull rayé, l'autre en veste en daim.",
+      "cadrage": "45% 35%",
+      "categorie": "Entre amis",
+      "portfolio": true,
+      "largeur": 1600,
+      "hauteur": 1066,
+      "tailles": [
+        480,
+        800,
+        1200,
+        1600
+      ],
+      "ordreMobile": 6
+    },
+    {
+      "id": "lunettes-arbres",
+      "source": "lunettes-arbres.png",
+      "alt": "Homme en sweat gris remontant ses lunettes de soleil du bout du doigt, arbres et eau en arrière-plan.",
+      "cadrage": "48% 22%",
+      "categorie": "Portraits",
+      "portfolio": true,
+      "largeur": 1170,
+      "hauteur": 1746,
+      "tailles": [
+        480,
+        800,
+        1170
+      ],
+      "serie": "gris",
+      "ordreMobile": 8
+    },
+    {
+      "id": "escalier-foret",
+      "source": "escalier-foret.png",
+      "alt": "Femme de dos aux longues tresses, en robe noire, montant un escalier en forêt.",
+      "cadrage": "70% 50%",
+      "categorie": "Portraits",
+      "portfolio": true,
+      "largeur": 1082,
+      "hauteur": 1600,
+      "tailles": [
+        480,
+        800,
+        1082
+      ],
+      "serie": "foret",
+      "ordreMobile": 9
+    },
+    {
+      "id": "polo-debout",
+      "source": "polo-debout.png",
+      "alt": "Homme en polo rose dans la rue, regarde son téléphone, une pochette sous le bras.",
+      "cadrage": "45% 20%",
+      "categorie": "Portraits",
+      "portfolio": true,
+      "largeur": 1170,
+      "hauteur": 1714,
+      "tailles": [
+        480,
+        800,
+        1170
+      ],
+      "serie": "polo",
+      "ordreMobile": 10
+    },
+    {
+      "id": "ruelle-fanions",
+      "source": "ruelle-fanions.jpg",
+      "alt": "Ruelle étroite décorée de fanions colorés, entre façades anciennes et plantes aux balcons.",
+      "cadrage": "50% 55%",
+      "categorie": "Ambiances",
+      "portfolio": true,
+      "largeur": 1024,
+      "hauteur": 1536,
+      "tailles": [
+        480,
+        800,
+        1024
+      ],
+      "serie": "rues",
+      "ordreMobile": 12
+    },
+    {
+      "id": "casquette-geste",
+      "source": "casquette-geste-hd.png",
+      "alt": "Homme en casquette et pull bleu, les deux mains tendues dans un geste théâtral.",
+      "cadrage": "50% 26%",
+      "categorie": "Portraits",
+      "portfolio": true,
+      "largeur": 1024,
+      "hauteur": 1536,
+      "tailles": [
+        480,
+        800,
+        1024
+      ],
+      "serie": "ny",
+      "ordreMobile": 11
+    },
+    {
+      "id": "blazer-tram",
+      "source": "blazer-tram.png",
+      "alt": "Homme barbu en lunettes de soleil et veste à carreaux devant un tramway couvert de graffitis.",
+      "cadrage": "35% 22%",
+      "categorie": "Portraits",
+      "portfolio": true,
+      "largeur": 1024,
+      "hauteur": 1536,
+      "tailles": [
+        480,
+        800,
+        1024
+      ],
+      "serie": "blazer",
+      "ordreMobile": 15
+    },
+    {
+      "id": "polo-assis",
+      "source": "polo-assis.png",
+      "alt": "Homme en polo rose assis devant une sculpture, consulte son téléphone.",
+      "cadrage": "68% 30%",
+      "categorie": "Portraits",
+      "portfolio": true,
+      "largeur": 1536,
+      "hauteur": 1024,
+      "tailles": [
+        480,
+        800,
+        1200,
+        1536
+      ],
+      "serie": "polo",
+      "ordreMobile": 13
+    },
+    {
+      "id": "lunettes-ciel-bleu",
+      "source": "lunettes-ciel-bleu.png",
+      "alt": "Homme souriant en lunettes de soleil, la main sur la monture, devant un ciel bleu.",
+      "cadrage": "45% 32%",
+      "categorie": "Portraits",
+      "portfolio": true,
+      "largeur": 1170,
+      "hauteur": 1143,
+      "tailles": [
+        480,
+        800,
+        1170
+      ],
+      "serie": "gris",
+      "ordreMobile": 14
+    },
+    {
+      "id": "assise-barriere",
+      "source": "assise-barriere.png",
+      "alt": "Femme souriante aux longues tresses, assise sur une barrière en bois dans un parc.",
+      "cadrage": "57% 28%",
+      "categorie": "Portraits",
+      "portfolio": true,
+      "largeur": 1076,
+      "hauteur": 1600,
+      "tailles": [
+        480,
+        800,
+        1076
+      ],
+      "serie": "foret",
+      "ordreMobile": 17
+    },
+    {
+      "id": "ny-plongee",
+      "source": "ny-plongee.png",
+      "alt": "Portrait en plongée d'un homme en casquette, regard levé vers l'objectif, sur fond de pavés.",
+      "cadrage": "46% 40%",
+      "categorie": "Portraits",
+      "portfolio": true,
+      "largeur": 1024,
+      "hauteur": 1536,
+      "tailles": [
+        480,
+        800,
+        1024
+      ],
+      "serie": "ny",
+      "ordreMobile": 16
+    },
+    {
+      "id": "femme-lunettes-pull-beige",
+      "source": "femme-lunettes-pull-beige.png",
+      "alt": "Femme aux lunettes et pull beige, moue espiègle, une main levée vers l'objectif.",
+      "cadrage": "58% 24%",
+      "categorie": "Portraits",
+      "portfolio": true,
+      "largeur": 1024,
+      "hauteur": 1536,
+      "tailles": [
+        480,
+        800,
+        1024
+      ],
+      "ordreMobile": 18
+    },
+    {
+      "id": "terrasse-eclat-de-rire",
+      "source": "terrasse-eclat-de-rire.png",
+      "alt": "Homme en éclat de rire à une terrasse, casque blanc autour du cou, un verre à la main.",
+      "cadrage": "46% 32%",
+      "categorie": "Portraits",
+      "portfolio": true,
+      "largeur": 1170,
+      "hauteur": 765,
+      "tailles": [
+        480,
+        800,
+        1170
+      ],
+      "serie": "gris",
+      "ordreMobile": 19,
+      "simpleSurTablette": true
+    },
+    {
+      "id": "casquette-pull-canard",
+      "source": "casquette-pull-canard.jpeg",
+      "alt": "Homme en pull bleu canard, tête baissée, une main posée sur sa casquette noire.",
+      "cadrage": "55% 25%",
+      "categorie": "Portraits",
+      "portfolio": true,
+      "largeur": 1108,
+      "hauteur": 1600,
+      "tailles": [
+        480,
+        800,
+        1108
+      ],
+      "serie": "ny",
+      "ordreMobile": 20
+    },
+    {
+      "id": "rue-barcelone",
+      "source": "rue-barcelone.jpg",
+      "alt": "Rue animée bordée d'immeubles anciens à balcons et de lampadaires en grappes.",
+      "cadrage": "50% 60%",
+      "categorie": "Ambiances",
+      "portfolio": true,
+      "largeur": 1080,
+      "hauteur": 1620,
+      "tailles": [
+        480,
+        800,
+        1080
+      ],
+      "serie": "rues",
+      "ordreMobile": 21
+    },
+    {
+      "id": "ny-salut",
+      "source": "ny-salut.png",
+      "alt": "Homme en casquette et pull bleu, en plongée, fait un signe de la main.",
+      "cadrage": "57% 20%",
+      "categorie": "Portraits",
+      "portfolio": true,
+      "largeur": 1024,
+      "hauteur": 1536,
+      "tailles": [
+        480,
+        800,
+        1024
+      ],
+      "serie": "ny",
+      "ordreMobile": 23
+    },
+    {
+      "id": "casque-plan-eau",
+      "source": "casque-plan-eau.png",
+      "alt": "Homme en lunettes de soleil ajustant son casque audio, devant un plan d'eau.",
+      "cadrage": "45% 30%",
+      "categorie": "Portraits",
+      "portfolio": true,
+      "largeur": 1170,
+      "hauteur": 1539,
+      "tailles": [
+        480,
+        800,
+        1170
+      ],
+      "serie": "gris",
+      "ordreMobile": 22
+    },
+    {
+      "id": "femme-mur-vert",
+      "source": "femme-mur-vert.png",
+      "alt": "Femme aux cheveux longs et chemisier clair, posée devant un mur vert peint.",
+      "cadrage": "50% 25%",
+      "categorie": "Portraits",
+      "portfolio": false,
+      "largeur": 612,
+      "hauteur": 502,
+      "tailles": [
+        480,
+        612
+      ]
+    },
+    {
+      "id": "albert-photographe",
+      "source": "albert-photographe-retouche.png",
+      "alt": "Albert Camus, photographe d'Authentic Code, règle son appareil photo dans la rue.",
+      "cadrage": "50% 30%",
+      "categorie": "À propos",
+      "portfolio": false,
+      "largeur": 1084,
+      "hauteur": 1355,
+      "tailles": [
+        480,
+        800,
+        1084
+      ]
+    }
+  ]
+}

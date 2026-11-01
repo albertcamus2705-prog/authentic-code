@@ -1,0 +1,107 @@
+{
+  "_aide": "Toutes les séances et leurs prix. Modifier un prix ou une durée ici le met à jour partout : page Séances & tarifs, accueil, formulaire de demande et e-mail reçu. Ne pas changer les 'id' (ils servent aux liens directs, ex. /seances/#couple).",
+  "seances": [
+    {
+      "id": "mini-solo",
+      "nom": "Mini-séance solo",
+      "pour": "Une personne",
+      "duree": "30 min",
+      "photos": 5,
+      "prix": 90,
+      "description": "Pour un besoin ciblé : une nouvelle photo de profil, quelques portraits réussis ou un premier essai devant l'objectif.",
+      "accueil": true
+    },
+    {
+      "id": "solo-classique",
+      "nom": "Solo classique",
+      "pour": "Une personne",
+      "duree": "1 h",
+      "photos": 10,
+      "prix": 150,
+      "description": "Le temps de prendre vos marques, puis de varier les cadrages et les expressions.",
+      "accueil": true
+    },
+    {
+      "id": "solo-complet",
+      "nom": "Solo complet",
+      "pour": "Une personne",
+      "duree": "2 h",
+      "photos": 20,
+      "prix": 250,
+      "description": "Une séance longue pour plusieurs ambiances ou plusieurs tenues, avec une sélection plus riche.",
+      "accueil": false
+    },
+    {
+      "id": "portrait-pro",
+      "nom": "Portrait professionnel",
+      "nomComplet": "Portrait professionnel — LinkedIn, CV & présentation",
+      "pour": "Étudiants, personnes en recherche d'emploi, salariés, cadres, entrepreneurs, indépendants et consultants",
+      "duree": "30 min",
+      "photos": 3,
+      "prix": 90,
+      "description": "Pour votre profil LinkedIn, votre CV, votre site ou votre présentation professionnelle.",
+      "accueil": true
+    },
+    {
+      "id": "couple",
+      "nom": "Couple",
+      "pour": "Deux personnes",
+      "duree": "1 h",
+      "photos": 15,
+      "prix": 180,
+      "description": "Un moment à deux, guidé simplement, pour des images naturelles de votre complicité.",
+      "accueil": true
+    },
+    {
+      "id": "famille",
+      "nom": "Famille",
+      "pour": "Jusqu'à 5 personnes",
+      "duree": "1 h à 1 h 15",
+      "photos": 20,
+      "prix": 220,
+      "personnesMax": 5,
+      "description": "Parents, enfants, grands-parents : une séance à la maison ou en extérieur, au rythme de chacun.",
+      "accueil": false
+    },
+    {
+      "id": "grossesse",
+      "nom": "Grossesse",
+      "pour": "Future maman, seule ou accompagnée",
+      "duree": "1 h à 1 h 30",
+      "photos": 15,
+      "prix": 220,
+      "description": "Pour garder une trace de cette période, avec le temps de vous installer confortablement.",
+      "accueil": false
+    },
+    {
+      "id": "amis-evjf",
+      "nom": "Amis / EVJF",
+      "pour": "Jusqu'à 8 personnes",
+      "duree": "1 h 30",
+      "photos": 25,
+      "prix": 280,
+      "personnesMax": 8,
+      "description": "Une séance de groupe pour un EVJF, un moment entre amis ou le plaisir d'être réunis : portraits et photos de groupe.",
+      "accueil": false
+    }
+  ],
+  "options": [
+    {
+      "nom": "Photo retouchée supplémentaire",
+      "prix": 10
+    },
+    {
+      "nom": "Lot de 5 photos retouchées supplémentaires",
+      "prix": 40
+    }
+  ],
+  "informations": [
+    "Séances en extérieur ou à domicile, à Paris et en Île-de-France.",
+    "Livraison numérique en haute définition.",
+    "Déplacements hors Île-de-France : frais à la charge du client, précisés avant la réservation.",
+    "Location de studio : sur devis.",
+    "Mariages et projets de marque : sur devis.",
+    "Anniversaires et événements privés : à la carte, sur devis."
+  ],
+  "livraisonRapide": "Sur demande et selon disponibilité, il est possible de prévoir les premières photos dans l'heure ou une galerie sous 24 heures. Cette possibilité est confirmée au moment de la réservation."
+}

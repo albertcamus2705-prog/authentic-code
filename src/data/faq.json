@@ -1,0 +1,268 @@
+{
+  "_aide": "Questions fréquentes. 'publie': false masque la question tant que la réponse n'est pas validée. 'accueil': true l'affiche aussi sur la page d'accueil (5 ou 6 maximum). 'pages' l'affiche aussi sur d'autres pages (seances, portrait, mariages).",
+  "themes": [
+    {
+      "id": "preparer",
+      "titre": "Préparer sa séance"
+    },
+    {
+      "id": "pro",
+      "titre": "Portraits professionnels"
+    },
+    {
+      "id": "photos",
+      "titre": "Photos et livraison"
+    },
+    {
+      "id": "evenements",
+      "titre": "Événements et réservation"
+    }
+  ],
+  "questions": [
+    {
+      "theme": "preparer",
+      "publie": true,
+      "accueil": true,
+      "q": "Je ne suis pas photogénique et je ne sais pas poser. Puis-je réserver ?",
+      "r": "Bien sûr. Vous n'avez pas besoin de connaître les poses ou d'avoir déjà fait un shooting. Je vous guide pour la posture, le regard et les mouvements, en prenant le temps de vous mettre à l'aise. L'objectif est d'obtenir des images dans lesquelles vous vous reconnaissez."
+    },
+    {
+      "theme": "preparer",
+      "publie": true,
+      "accueil": true,
+      "pages": [
+        "seances"
+      ],
+      "q": "Comment choisir ma séance ?",
+      "r": "Cela dépend de votre projet, du temps dont vous souhaitez disposer et du nombre de photos souhaité. Une mini-séance convient à un besoin ciblé. Une séance plus longue laisse davantage de place à la variété. Si vous hésitez, décrivez-moi votre envie : nous identifierons ensemble la formule adaptée.",
+      "lien": {
+        "texte": "Comparer les séances",
+        "url": "/seances/"
+      }
+    },
+    {
+      "theme": "preparer",
+      "publie": true,
+      "accueil": true,
+      "q": "Quelle tenue prévoir ?",
+      "r": "Choisissez une tenue dans laquelle vous êtes à l'aise et qui correspond au rendu recherché. Des vêtements bien ajustés et des couleurs faciles à associer permettent souvent de garder l'attention sur vous. Pour une séance à plusieurs, vous pouvez coordonner les couleurs sans porter exactement la même chose. Nous pouvons en discuter avant la séance."
+    },
+    {
+      "theme": "preparer",
+      "publie": true,
+      "pages": [
+        "seances"
+      ],
+      "q": "Puis-je apporter plusieurs tenues ?",
+      "r": "Indiquez-le lors de votre demande. Nous vérifierons ce qui est possible selon la durée, le lieu et les possibilités de changement sur place. Pour plusieurs ambiances, une séance plus longue peut être préférable."
+    },
+    {
+      "theme": "preparer",
+      "publie": true,
+      "accueil": true,
+      "q": "Où se déroulent les séances ?",
+      "r": "Les séances peuvent être organisées en extérieur ou à domicile, à Paris et en Île-de-France. Le lieu est choisi selon votre projet. Hors Île-de-France, les frais de déplacement sont à votre charge et vous sont indiqués avant la réservation. Une location de studio fait l'objet d'un devis préalable."
+    },
+    {
+      "theme": "preparer",
+      "publie": true,
+      "q": "Puis-je vous envoyer des inspirations ?",
+      "r": "Oui. Quelques images peuvent aider à comprendre les couleurs, la lumière ou l'ambiance que vous aimez. Elles servent de point de départ pour préparer une séance qui vous ressemble, en tenant compte du lieu et des conditions de prise de vue."
+    },
+    {
+      "theme": "preparer",
+      "publie": true,
+      "q": "Que se passe-t-il s'il pleut le jour de la séance ?",
+      "r": "Si la séance est prévue en extérieur et que la météo ne convient pas, nous la reportons sans frais à une nouvelle date convenue ensemble.",
+      "pages": [
+        "seances"
+      ]
+    },
+    {
+      "theme": "pro",
+      "publie": true,
+      "pages": [
+        "portrait"
+      ],
+      "q": "Proposez-vous des photos pour LinkedIn et les CV ?",
+      "r": "Oui. La séance Portrait professionnel comprend 30 minutes de prise de vue et 3 photos retouchées pour 90 €. Elle convient notamment à LinkedIn, à un CV ou à une présentation professionnelle. Nous préparons le rendu en fonction de votre activité et de l'image que vous souhaitez transmettre."
+    },
+    {
+      "theme": "pro",
+      "publie": true,
+      "pages": [
+        "portrait"
+      ],
+      "q": "Faut-il obligatoirement porter un costume ?",
+      "r": "Non. La tenue doit être cohérente avec votre métier et vous permettre de vous sentir à l'aise. Une chemise, une veste, une blouse ou une tenue plus décontractée peuvent convenir. Nous choisissons une présentation adaptée à votre environnement professionnel."
+    },
+    {
+      "theme": "pro",
+      "publie": true,
+      "pages": [
+        "portrait"
+      ],
+      "q": "Quel fond choisir pour un portrait professionnel ?",
+      "r": "Un fond sobre permet de concentrer l'attention sur le visage. Un environnement de travail ou un extérieur discret peuvent aussi apporter du contexte. Le choix dépend de votre activité, de votre personnalité et de l'usage prévu."
+    },
+    {
+      "theme": "pro",
+      "publie": true,
+      "pages": [
+        "portrait"
+      ],
+      "q": "Faut-il sourire sur sa photo LinkedIn ?",
+      "r": "Il n'y a pas une expression unique à adopter. Un sourire naturel peut donner une impression accueillante ; une expression plus posée peut également convenir. Pendant la séance, nous cherchons une expression professionnelle dans laquelle vous vous reconnaissez."
+    },
+    {
+      "theme": "pro",
+      "publie": true,
+      "pages": [
+        "portrait"
+      ],
+      "q": "Réalisez-vous les portraits de plusieurs collaborateurs ?",
+      "r": "Vous pouvez me transmettre votre projet pour une équipe ou plusieurs collaborateurs. Nous préciserons ensemble le nombre de personnes, le lieu, le style souhaité et l'organisation de la prise de vue afin d'établir un devis adapté.",
+      "lien": {
+        "texte": "Demander un devis pour une équipe",
+        "url": "/demande/?categorie=equipe"
+      }
+    },
+    {
+      "theme": "photos",
+      "publie": true,
+      "q": "Puis-je obtenir un rendu naturel plutôt que des photos très posées ?",
+      "r": "Oui, vous pouvez préciser votre préférence avant la séance. Nous pouvons rechercher des expressions spontanées et des mouvements simples, tout en conservant quelques indications pour vous guider. Les images présentées dans le portfolio vous permettent de découvrir mon approche.",
+      "lien": {
+        "texte": "Voir le portfolio",
+        "url": "/portfolio/"
+      }
+    },
+    {
+      "theme": "photos",
+      "publie": true,
+      "q": "Puis-je demander un style éditorial, argentique ou cinématographique ?",
+      "r": "Vous pouvez me montrer l'ambiance qui vous plaît. Nous regarderons ensemble si elle correspond à mon travail et aux conditions de la séance. La lumière, le lieu, les vêtements et la retouche participent au résultat : une inspiration ne garantit pas la reproduction exacte d'une autre photographie."
+    },
+    {
+      "theme": "photos",
+      "publie": false,
+      "enAttente": "Niveau de retouche inclus.",
+      "q": "Quelle différence entre retouche et transformation du visage ?",
+      "r": ""
+    },
+    {
+      "theme": "photos",
+      "publie": false,
+      "enAttente": "Outils réellement utilisés (intelligence artificielle ou non) et pour quelles opérations.",
+      "q": "Utilisez-vous l'intelligence artificielle pour retoucher les photos ?",
+      "r": ""
+    },
+    {
+      "theme": "photos",
+      "publie": true,
+      "accueil": false,
+      "pages": [
+        "seances"
+      ],
+      "q": "Combien de photos vais-je recevoir ?",
+      "r": "Chaque formule indique le nombre de photos retouchées incluses. Par exemple, la séance Solo classique comprend 10 photos et la séance Couple 15 photos. Vous pouvez demander des photos retouchées supplémentaires : 10 € l'unité ou 40 € le lot de 5."
+    },
+    {
+      "theme": "photos",
+      "publie": false,
+      "enAttente": "Qui choisit les photos retouchées : le client, le photographe ou les deux ensemble ?",
+      "q": "Puis-je choisir les photos qui seront retouchées ?",
+      "r": ""
+    },
+    {
+      "theme": "photos",
+      "publie": true,
+      "accueil": true,
+      "pages": [
+        "seances"
+      ],
+      "q": "Quand recevrai-je mes photos ?",
+      "r": "Le délai est précisé avant la confirmation de votre réservation. Sur demande et selon disponibilité, il est possible de prévoir les premières photos dans l'heure ou une galerie sous 24 heures. Cette possibilité doit être confirmée pour votre séance. Pour les mariages et événements, les délais sont définis selon la prestation."
+    },
+    {
+      "theme": "photos",
+      "publie": true,
+      "q": "Comment les photos sont-elles livrées ?",
+      "r": "Les photos sont livrées en numérique haute définition, par lien de téléchargement ou sur un autre support selon ce qui vous convient, pour les retrouver sur téléphone comme sur ordinateur. Des albums personnalisés peuvent aussi être réalisés, sur demande."
+    },
+    {
+      "theme": "photos",
+      "publie": false,
+      "enAttente": "Politique de livraison des fichiers bruts (RAW).",
+      "q": "Recevrai-je toutes les prises de vue ou les fichiers RAW ?",
+      "r": ""
+    },
+    {
+      "theme": "photos",
+      "publie": false,
+      "enAttente": "Processus réel d'accord pour publier les photos de clients.",
+      "q": "Mes photos seront-elles publiées sur votre site ou vos réseaux ?",
+      "r": ""
+    },
+    {
+      "theme": "evenements",
+      "publie": true,
+      "pages": [
+        "mariages"
+      ],
+      "q": "Photographiez-vous les anniversaires et événements privés ?",
+      "r": "Oui. Vous pouvez me contacter pour un anniversaire, des fiançailles, une réunion de famille ou une réception privée. La prestation est définie à la carte selon le lieu, la durée et les moments à photographier. Un devis vous est transmis après nos échanges."
+    },
+    {
+      "theme": "evenements",
+      "publie": true,
+      "pages": [
+        "mariages"
+      ],
+      "q": "Quelle différence entre une séance entre amis et un reportage événementiel ?",
+      "r": "Une séance entre amis est un temps consacré à la création de portraits et de photos de groupe. Un reportage suit le déroulement d'un événement et ses moments importants. La formule Amis / EVJF couvre une séance de 1 h 30 pour un groupe de 8 personnes maximum. Une couverture événementielle fait l'objet d'un devis spécifique."
+    },
+    {
+      "theme": "evenements",
+      "publie": true,
+      "pages": [
+        "mariages"
+      ],
+      "q": "À quoi sert une séance d'engagement avant le mariage ?",
+      "r": "C'est une séance de couple organisée avant le mariage, pour créer des images à deux et vous familiariser avec l'objectif. La durée prévue est de 1 h 30. C'est aussi l'occasion d'échanger sur vos attentes et d'être plus à l'aise avec la prise de vue avant le jour du mariage."
+    },
+    {
+      "theme": "evenements",
+      "publie": true,
+      "q": "Comment demander une réservation ?",
+      "r": "Choisissez votre séance, indiquez votre date souhaitée et envoyez votre demande depuis le formulaire. Vous pouvez aussi me contacter sur WhatsApp. Je reviens vers vous pour vérifier la disponibilité et préciser les modalités."
+    },
+    {
+      "theme": "evenements",
+      "publie": true,
+      "accueil": true,
+      "q": "Ma séance est-elle confirmée après l'envoi du formulaire ?",
+      "r": "Non. Le formulaire transmet votre demande. La date et la prestation sont confirmées après notre échange et selon les conditions qui vous sont communiquées."
+    },
+    {
+      "theme": "evenements",
+      "publie": true,
+      "q": "Comment ma séance est-elle confirmée ? Puis-je la reporter ?",
+      "r": "Votre séance est confirmée par message après notre échange. En cas d'empêchement, prévenez-moi au moins 48 heures avant pour la reporter. Si la météo ne permet pas une séance prévue en extérieur, le report est sans frais.",
+      "accueil": false
+    },
+    {
+      "theme": "evenements",
+      "publie": true,
+      "pages": [
+        "seances"
+      ],
+      "q": "Puis-je offrir une séance photo ?",
+      "r": "Oui. Choisissez la séance à offrir et indiquez-le dans votre demande : je vous recontacte pour préparer la carte cadeau et vous en préciser les modalités.",
+      "lien": {
+        "texte": "Offrir une séance",
+        "url": "/demande/?categorie=cadeau"
+      }
+    }
+  ]
+}
